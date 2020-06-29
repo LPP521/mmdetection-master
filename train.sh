@@ -10,4 +10,4 @@ OMP_NUM_THREADS=1 CUDA_VISIBLE_DEVICES=0,1,2,3 ./tools/dist_train.sh configs/alb
 # 带有mask时
 # 负样本 非分布式 单卡可训练 多卡无法训练
 # 负样本 分布式 无法训练
-
+# 第一次上传测试 
