@@ -208,6 +208,7 @@ class TwoStageDetector(BaseDetector, RPNTestMixin, BBoxTestMixin,
                 else:
                     # 生成随机idx
                     idx = torch.randperm(len(proposal_list[i]))
+                    # pdb.set_trace()
                     # 随记选取propsoal作为负样本 512
                     neg_bboxes_num = self.train_cfg.rcnn['sampler']['num']
                     neg_bboxes = proposal_list[i][idx[:neg_bboxes_num], :4]

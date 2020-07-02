@@ -14,4 +14,3 @@ configs/albu_example/faster_rcnn_r50_fpn_1x.py \
 #./work_dirs/product/mask_rcnn_dconv_c3-c5_r50_fpn_1x/epoch_26.pth \
 #--eval bbox --out output/out.pkl # --overwrite
 
-# 第一次上传测试
